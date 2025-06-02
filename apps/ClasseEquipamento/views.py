@@ -1,10 +1,10 @@
 from django.shortcuts import render
 from .models import ClasseEquipamento 
 from rest_framework import viewsets
-from .serializer import ClassEquipamentSerializer
+from .serializer import ClasseEquipamentoSerializer
 
 # Create your views here.
 
-class ClassEquipamentViewSet(viewsets.ModelViewSet):
+class ClasseEquipamentoViewSet(viewsets.ModelViewSet):
     queryset = ClasseEquipamento.objects.all()
-    serializer_class = ClassEquipamentSerializer
+    serializer_class = ClasseEquipamentoSerializer
