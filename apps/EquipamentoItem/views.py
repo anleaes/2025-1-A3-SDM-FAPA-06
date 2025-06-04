@@ -5,3 +5,8 @@ from .serializer import  EquipamentoItemSerializer
 
 # Create your views here.
 
+class EquipamentoItemViewSet(viewsets.ModelViewSet):
+    queryset = EquipamentoItem.objects.all()
+    serializer_class = EquipamentoItemSerializer  
+
+    
