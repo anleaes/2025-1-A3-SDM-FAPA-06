@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'ClasseEquipamento.apps.ClasseEquipamentoConfig',
     'Equipamento.apps.EquipamentoConfig', 
+    'EquipamentoItem.apps.EquipamentoItemConfig',
 ]
 
 MIDDLEWARE = [

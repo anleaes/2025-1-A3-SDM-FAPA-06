@@ -3,4 +3,5 @@ modeloapp/__pycache__/*
 /apps/ClasseEquipamento/migrations/*
 /apps/Equipamento/__pycache__/*
 /apps/Equipamento/migrations/*
-
+/apps/EquipamentoItem/__pycache__/*
+/apps/EquipamentoItem/migrations/*
