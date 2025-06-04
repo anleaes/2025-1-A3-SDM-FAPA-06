@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'ClasseEquipamento.apps.ClasseEquipamentoConfig',
-    'Equipamento.apps.EquipametoConfig', 
+    'Equipamento.apps.EquipamentoConfig', 
 ]
 
 MIDDLEWARE = [
