@@ -1,3 +1,6 @@
 modeloapp/__pycache__/*
 /apps/ClasseEquipamento/__pycache__/*
 /apps/ClasseEquipamento/migrations/*
+/apps/Equipamento/__pycache__/*
+/apps/Equipamento/migrations/*
+
