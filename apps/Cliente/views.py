@@ -4,7 +4,7 @@ from rest_framework import viewsets
 from .serializer import ClienteSerializer
 # Create your views here.
 
-class ClientViewSet(viewsets.ModelViewSet):
+class ClienteViewSet(viewsets.ModelViewSet):
     queryset = Cliente.objects.all()
     serializer_class = ClienteSerializer  
     

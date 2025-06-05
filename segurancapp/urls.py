@@ -22,4 +22,5 @@ urlpatterns = [
     path('ClasseEquipamento/', include('ClasseEquipamento.urls', namespace='ClasseEquipamento')),
     path('Equipamento/', include('Equipamento.urls', namespace='Equipamento')),  
     path('EquipamentoItem/', include('EquipamentoItem.urls', namespace='EquipamentoItem')), 
+    path('Cliente/', include('Cliente.urls', namespace='Cliente')),
 ]
