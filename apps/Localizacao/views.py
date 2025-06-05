@@ -5,3 +5,8 @@ from .serializer import LocalizacaoSerializer
 
 # Create your views here.
 
+class ClientViewSet(viewsets.ModelViewSet):
+    queryset = Localizacao.objects.all()
+    serializer_class = LocalizacaoSerializer 
+
+    
