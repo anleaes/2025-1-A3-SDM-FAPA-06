@@ -5,3 +5,5 @@ modeloapp/__pycache__/*
 /apps/Equipamento/migrations/*
 /apps/EquipamentoItem/__pycache__/*
 /apps/EquipamentoItem/migrations/*
+/apps/Cliente/__pycache__/*
+/apps/Cliente/migrations/*
