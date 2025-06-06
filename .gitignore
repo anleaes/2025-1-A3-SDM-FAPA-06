@@ -11,3 +11,5 @@ modeloapp/__pycache__/*
 /apps/Localizacao/migrations/*
 /apps/Monitoramento/__pycache__/*
 /apps/Monitoramento/migrations/*
+/apps/MonitoramentoTipo/__pycache__/*
+/apps/MonitoramentoTipo/migrations/*
