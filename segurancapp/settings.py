@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'EquipamentoItem.apps.EquipamentoItemConfig',
     'Cliente.apps.ClienteConfig',
     'Localizacao.apps.LocalizacaoConfig',
+    'Monitoramento.apps.MonitoramentoConfig',
 ]
 
 MIDDLEWARE = [
