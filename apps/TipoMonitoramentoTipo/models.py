@@ -4,7 +4,7 @@ from MonitoramentoTipo.models import MonitoramentoTipo
 
 # Create your models here.
 
-class Order(models.Model):
+class TipoMonitoramentoTipo(models.Model):
     Monitoramento = models.ForeignKey(Monitoramento, on_delete=models.CASCADE)
     MonitoramentoTipo = models.ForeignKey(MonitoramentoTipo, on_delete=models.CASCADE)
     
