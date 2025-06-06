@@ -25,4 +25,5 @@ urlpatterns = [
     path('Cliente/', include('Cliente.urls', namespace='Cliente')),
     path('Localizacao/', include('Localizacao.urls', namespace='Localizacao')),
     path('Monitoramento/', include('Monitoramento.urls', namespace='Monitoramento')),
+    path('MonitoramentoTipo/', include('MonitoramentoTipo.urls', namespace='MonitoramentoTipo')),
 ]
