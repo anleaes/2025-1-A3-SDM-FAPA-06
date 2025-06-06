@@ -3,17 +3,23 @@ from Cliente.models import Cliente
 
 # Create your models here.
 
-class Client(models.Model):
+class Localizacao(models.Model):
     
     address = models.CharField('Endereco', max_length=200)  
     LOCATION_CHOICES = (
-        ('Casa'),
-        ('Predio'),
-        ('Empresa'),
-        ('Outro'),
+        ('Casa', 'Casa'),
+        ('Apartamento', 'Apartamento'),
+        ('Comercio', 'Comercio'),
+        ('Industria', 'Industria'),
+        ('Escola', 'Escola'),
+        ('Hospital', 'Hospital'),
+        ('Predio', 'Predio'),
+        ('Empresa', 'Empresa'),
+        ('Outro', 'Outro'),
+        
     )
-    Location = models.CharField('Localização', max_length=1, choices=LOCATION_CHOICES)
-    Cliente = models.ManyToManyField(Cliente, verbose_name="Cliente")
+    Location = models.CharField('Localização', max_length=12, choices=LOCATION_CHOICES)
+   
 
     class Meta:
         verbose_name = 'Cliente'
