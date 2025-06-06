@@ -9,3 +9,5 @@ modeloapp/__pycache__/*
 /apps/Cliente/migrations/*
 /apps/Localizacao/__pycache__/*
 /apps/Localizacao/migrations/*
+/apps/Monitoramento/__pycache__/*
+/apps/Monitoramento/migrations/*
