@@ -4,3 +4,7 @@ from rest_framework import viewsets
 from .serializer import MonitoramentoSerializer
 
 # Create your views here.
+
+class MonitoramentoViewSet(viewsets.ModelViewSet):
+    queryset = Monitoramento.objects.all()
+    serializer_class = MonitoramentoSerializer  
