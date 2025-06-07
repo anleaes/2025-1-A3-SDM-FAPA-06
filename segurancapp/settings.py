@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_filters',
     'rest_framework',
     'ClasseEquipamento.apps.ClasseEquipamentoConfig',
     'Equipamento.apps.EquipamentoConfig', 
@@ -49,6 +50,8 @@ INSTALLED_APPS = [
     'Localizacao.apps.LocalizacaoConfig',
     'Monitoramento.apps.MonitoramentoConfig',
     'MonitoramentoTipo.apps.MonitoramentoTipoConfig',
+    'TipoMonitoramentoTipo.apps.TipoMonitoramentoTipoConfig',
+
 ]
 
 MIDDLEWARE = [
