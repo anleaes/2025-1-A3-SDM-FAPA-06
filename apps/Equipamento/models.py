@@ -9,6 +9,8 @@ class Equipamento(models.Model):
     model = models.CharField('Modelo', max_length=50)
     price = models.DecimalField('Preco', max_digits=10, decimal_places=2)
     ClasseEquipamento = models.ForeignKey(ClasseEquipamento, on_delete=models.CASCADE)
+    #photo = models.ImageField('Foto', upload_to='photos')
+    #doc = models.FileField('Documentos', upload_to='docs')
 
     class Meta:
         verbose_name = 'Equipamento'
