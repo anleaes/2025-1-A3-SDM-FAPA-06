@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_filters',
-    'rest_framework',
     'ClasseEquipamento.apps.ClasseEquipamentoConfig',
     'Equipamento.apps.EquipamentoConfig', 
     'EquipamentoItem.apps.EquipamentoItemConfig',
@@ -51,6 +50,8 @@ INSTALLED_APPS = [
     'Monitoramento.apps.MonitoramentoConfig',
     'MonitoramentoTipo.apps.MonitoramentoTipoConfig',
     'TipoMonitoramentoTipo.apps.TipoMonitoramentoTipoConfig',
+    'rest_framework',
+    'rest_framework.authtoken'
 
 ]
 
@@ -141,3 +142,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #MEDIA_URL = '/media/' 
 #MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+}
