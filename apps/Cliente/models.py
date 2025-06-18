@@ -1,4 +1,5 @@
 from django.db import models
+from Localizacao.models import Localizacao
 
 # Create your models here.
 
