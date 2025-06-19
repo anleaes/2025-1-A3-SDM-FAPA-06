@@ -10,5 +10,5 @@ class EquipamentoViewSet(viewsets.ModelViewSet):
     queryset = Equipamento.objects.all()
     serializer_class = EquipamentoSerializer 
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['description', 'modelo', 'price']
+    filterset_fields = ['description', 'model', 'price']
 

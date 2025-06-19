@@ -7,7 +7,7 @@ from Localizacao.models import Localizacao
 class Monitoramento(models.Model):
     name = models.CharField('Nome', max_length=50)
     event = models.TextField('Descricao', max_length=100)
-    date_time = models.DateTimeField('Data e Hora', auto_now_add=True)
+    date_time = models.DateTimeField('Data e Hora', auto_now_add=True, null=True, blank=True)
     status = models.BooleanField('Ativo', default=False)
     localizacao = models.ForeignKey(Localizacao, on_delete=models.CASCADE)
 
